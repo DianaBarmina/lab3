@@ -36,7 +36,7 @@ VM_B: ubuntu5
 ### Работа в терминалах 
 В терминале первой машины, которая имеет доступ в сеть, был пропингован google.com:
 
-![Гугл пинг](Report\images\ubuntu3_1.png)
+![Гугл пинг](Report/images/ubuntu3_1.png)
 
 Доступ в интернет есть
 
@@ -64,7 +64,7 @@ VM_B: ubuntu5
 ---
 Ping с ubuntu3 на ubuntu4 и ubuntu5:
 
-![Гугл пинг](C:\Informatics\lab3\lab3\Report\images\ubuntu3_2.png)
+![Гугл пинг](C:/Informatics/lab3/lab3/Report/images/ubuntu3_2.png)
 
 Все пингуется
 
@@ -72,7 +72,7 @@ Ping с ubuntu3 на ubuntu4 и ubuntu5:
 
 Ping с ubuntu4 на ubuntu3 и ubuntu5:
 
-![Гугл пинг](C:\Informatics\lab3\lab3\Report\images\ubuntu4_2.png)
+![Гугл пинг](C:/Informatics/lab3/lab3/Report/images/ubuntu4_2.png)
 
 Все пингуется
 
@@ -80,7 +80,7 @@ Ping с ubuntu4 на ubuntu3 и ubuntu5:
 
 Ping с ubuntu5 на ubuntu3 и ubuntu4:
 
-![Гугл пинг](C:\Informatics\lab3\lab3\Report\images\ubuntu5_2.png)
+![Гугл пинг](C:/Informatics/lab3/lab3/Report/images/ubuntu5_2.png)
 
 Все пингуется
 
@@ -89,14 +89,14 @@ Ping с ubuntu5 на ubuntu3 и ubuntu4:
    ```bash
    sudo iptables -A INPUT -s 192.168.1.3 -j DROP
    ```
-![Гугл пинг](C:\Informatics\lab3\lab3\Report\images\ubuntu4_3.png)
+![Гугл пинг](C:/Informatics/lab3/lab3/Report/images/ubuntu4_3.png)
 
 Как видно на скриншоте выше нельзя пропинговать третью машину из второй
 
 
 ---
 ### Итоговый скриншот с тремя открытыми терминалами
-![Гугл пинг](C:\Informatics\lab3\lab3\Report\images\all.png)
+![Гугл пинг](C:/Informatics/lab3/lab3/Report/images/all.png)
 
 ---
 
